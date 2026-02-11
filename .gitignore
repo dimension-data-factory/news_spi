@@ -1,0 +1,25 @@
+# 1. Python 核心
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2. Scrapy 数据与缓存（重要！）
+.scrapy/
+*.log
+# 如果你运行过 scrapy crawl -o data.csv，请排除数据文件
+*.csv
+*.json
+*.xml
+
+# 3. 环境与依赖
+venv/
+env/
+.env
+.venv
+pip-log.txt
+
+# 4. 编辑器相关
+.vscode/
+.idea/
+.DS_Store
+
